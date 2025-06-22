@@ -96,17 +96,23 @@ Run the model:
 ```bash
 python scripts/model_pipeline.py
 ```
+
 ```bash
 git clone https://github.com/<your-username>/SAP-Procurement-Analytics.git
 cd SAP-Procurement-Analytics
 pip install -r requirements.txt  # optional if you generate it
 
 ```
-“🙋‍♂️ Author 
+
+## 🙋‍♂️ Author 
 **Ajaychary Kandukuri** 
+
 🎓 Master’s Student in Data Science 
+
 🔗 [Portfolio](https://ajaychary06.github.io/Portfolio/) 
+
 🐍 [GitHub](https://github.com/ajaychary06) 
+
 💼 [LinkedIn](https://www.linkedin.com/in/ajaychary-kandukuri-053a5a25a/)”
 
 
