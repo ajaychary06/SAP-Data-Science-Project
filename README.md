@@ -72,7 +72,7 @@ SAP-Procurement-Analytics/
 
 ## 📊 Dashboard Highlights (Power BI)
 
-![Dashboard Preview](dashboard/preview.png) <!-- optional -->
+![Dashboard Preview](Supplier Risk Dashboard.pbix) <!-- optional -->
 
 - **Bar Chart**: Total Spend by Vendor
 - **Map**: Spend by Country
