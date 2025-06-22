@@ -50,3 +50,63 @@ SAP-Procurement-Analytics/
 │ └── Supplier_Risk_Dashboard.pdf
 
 ├── README.md
+
+
+
+---
+
+## 🧾 Dataset Description
+
+| Column             | Description                                 |
+|--------------------|---------------------------------------------|
+| Vendor_ID          | Unique supplier identifier                  |
+| PO_Date            | Purchase order date                         |
+| Delivery_Date      | Actual delivery date                        |
+| Quantity, Unit_Price | Order details and pricing                 |
+| Delay_Days         | Days between PO and delivery                |
+| Supplier_Rating    | Rating (1 to 5) based on delivery/service   |
+| Country            | Supplier country                            |
+| High_Risk          | Flag: 1 = high-risk supplier                |
+
+---
+
+## 📊 Dashboard Highlights (Power BI)
+
+![Dashboard Preview](dashboard/preview.png) <!-- optional -->
+
+- **Bar Chart**: Total Spend by Vendor
+- **Map**: Spend by Country
+- **Stacked Bar**: Risk Breakdown by Country
+- **Donut Chart**: High vs Low Risk Vendors
+- **Scatter Plot**: Delay vs Rating
+- **KPI Cards**: Avg Delay, Total Spend, % High Risk
+- **Filters**: Country, Risk Status
+
+---
+
+## 🧠 Machine Learning Model
+
+- **Algorithm**: Random Forest Classifier
+- **Target**: `High_Risk` (binary flag based on delay & rating)
+- **Features**: Spend, Delay_Days, Supplier_Rating, Total_Orders
+- **Accuracy**: ~90%
+- **Top Predictors**: Delay_Days, Rating
+
+Run the model:
+```bash
+python scripts/model_pipeline.py
+```
+```bash
+git clone https://github.com/<your-username>/SAP-Procurement-Analytics.git
+cd SAP-Procurement-Analytics
+pip install -r requirements.txt  # optional if you generate it
+
+```
+“🙋‍♂️ Author 
+**Ajaychary Kandukuri** 
+🎓 Master’s Student in Data Science 
+🔗 [Portfolio](https://ajaychary06.github.io/Portfolio/) 
+🐍 [GitHub](https://github.com/ajaychary06) 
+💼 [LinkedIn](https://www.linkedin.com/in/ajaychary-kandukuri-053a5a25a/)”
+
+
